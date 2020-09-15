@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>@yield('PageTitle')</title>
+		<link href="{{ asset('css/app.css') }}" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+		<style>
+			
+		</style>
+	</head>
+	<body>
+		
+		
+		<select class="mine">
+			<option data-color="red" value="1">omid 1</option>
+			<option data-color="#02a" value="2">omid 2</option>
+			<option data-color="red" value="3">omid 3</option>
+			<option data-color="green" value="4">omid 4</option>
+			<option data-color="#0ff" value="5">omid 5</option>
+			<option data-color="#fc0" value="6">omid 6</option>
+		</select>
+		
+		<script src="jquery.js"></script>
+		<script src="bootstrap.js"></script>
+		<script src="plugin.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".mine").oSelect();
+			});
+			
+		</script>
+	</body>
+</html>
