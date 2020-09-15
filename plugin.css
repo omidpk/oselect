@@ -1,3 +1,17 @@
 select.o-select{
 	display:none;
 }
+
+.o-select-container{
+	position:relative;
+}
+.o-select-container ul.o-select-list{
+	position:absolute;
+	display:none;
+}
+.o-select-container ul.o-select-list,
+.o-select-container ul.o-select-list li.o-select-item{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
